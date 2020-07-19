@@ -1,0 +1,2 @@
+1. main서버와 db서버를 샀음
+2. main서버에 아파치를 깔고 phpMyAdmin깔아서 로그인 시도중
