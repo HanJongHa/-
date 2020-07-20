@@ -1,5 +1,5 @@
 <?php
-
+    
     $host = 'db-4ha7m.cdb.ntruss.com';
     $username = 'sweetboys'; # MySQL 계정 아이디
     $password = 'whdgk123!'; # MySQL 계정 패스워드

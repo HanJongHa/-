@@ -11,3 +11,5 @@ ALTER TABLE [테이블명] MODIFY [컬럼명] [데이터타입:int] AUTO_INCREME
 drop table 테이블명;
 
 var/www/html 에 php파일을 만들면 실행이 됨
+
+now() 현재시간이 들어감
