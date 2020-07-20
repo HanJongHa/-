@@ -6,3 +6,8 @@ id, userid, pw (test table)
 
 ALTER TABLE [테이블명] MODIFY [컬럼명] [데이터타입:int] AUTO_INCREMENT;
 기본키 자동증가
+
+-테이블 삭제
+drop table 테이블명;
+
+var/www/html 에 php파일을 만들면 실행이 됨
