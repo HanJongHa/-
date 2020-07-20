@@ -1,0 +1,8 @@
+http://27.96.134.241/phpMyAdmin/를 입력해서 로그인 한다.
+또는 server에서 mysql -h db-4ha7m.cdb.ntruss.com -u sweetboys -p --port 3306으로 하여 mysql서버에 접속한다.
+- 테이블 데이터 초기화 : truncate '테이블이름;
+id, userid, pw (test table)
+
+
+ALTER TABLE [테이블명] MODIFY [컬럼명] [데이터타입:int] AUTO_INCREMENT;
+기본키 자동증가
