@@ -14,23 +14,23 @@
 
         // 안드로이드 코드의 postParameters 변수에 적어준 이름을 가지고 값을 전달 받습니다.
 
-        $name=$_POST['name'];   //안드로이드에서 name값을 전달해줌
-        $country=$_POST['country']; //안드로이드에서 country값을 전달해줌
+        $u_id=$_POST['u_id'];   //안드로이드에서 u_id값을 전달해줌
+        $u_pw=$_POST['u_pw']; //안드로이드에서 u_pw값을 전달해줌
 
-        if(empty($name)){
-            $errMSG = "이름을 입력하세요.";
+        if(empty($u_id)){
+            $errMSG = "사용하실 id를 입력하세요.";
         }
-        else if(empty($country)){
-            $errMSG = "나라를 입력하세요.";
+        else if(empty($u_pw)){
+            $errMSG = "사용하실 pw를 입력하세요.";
         }
 
-        if(!isset($errMSG)) // 이름과 나라 모두 입력이 되었다면 
+        if(!isset($errMSG)) // id와 pw 모두 입력이 되었다면 
         {
             try{
                 // SQL문을 실행하여 데이터를 MySQL 서버의 person 테이블에 저장합니다. 
-                $stmt = $con->prepare('INSERT INTO person(name, country) VALUES(:name, :country)');
-                $stmt->bindParam(':name', $name);
-                $stmt->bindParam(':country', $country);
+                $stmt = $con->prepare('INSERT INTO custom_info(u_id, u_pw) VALUES(:u_id, :u_pw)');
+                $stmt->bindParam(':u_id', $u_id);
+                $stmt->bindParam(':u_pw', $u_pw);
 
                 if($stmt->execute())
                 {
@@ -64,8 +64,8 @@
        <body>
             <!-- 안드로이드를 통해서 값을 전달해주는 것임 -->
             <form action="<?php $_PHP_SELF ?>" method="POST">
-                Name: <input type = "text" name = "name" />
-                Country: <input type = "text" name = "country" />
+                ID: <input type = "text" name = "u_id" />
+                PW: <input type = "text" name = "u_pw" />
                 <input type = "submit" name = "submit" />
             </form>
        
