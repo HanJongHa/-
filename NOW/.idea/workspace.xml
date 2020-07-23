@@ -6,10 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30373daa-b807-4146-a7f8-64d0728ccc82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="30373daa-b807-4146-a7f8-64d0728ccc82" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +37,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
@@ -117,10 +113,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="692" y="87" key="FileChooserDialogImpl" timestamp="1595510201695">
+    <state x="692" y="87" key="FileChooserDialogImpl" timestamp="1595510981707">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="692" y="87" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595510201695" />
+    <state x="692" y="87" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595510981707" />
     <state x="303" y="1" key="search.everywhere.popup" timestamp="1595510172383">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
