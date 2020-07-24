@@ -23,7 +23,6 @@ public class SignUpActivity extends AppCompatActivity {
                 setResult(RESULT_OK,intent);
                 finish();
                 Toast.makeText(getApplicationContext(), "회원가입이 완료 되었습니다!", Toast.LENGTH_LONG).show();
-
             }
         });
     }

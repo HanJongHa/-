@@ -46,7 +46,7 @@ public class LoginActivity extends Activity {
             @Override
             public void onClick(View v) {
                Intent intent= new Intent(getApplicationContext(),SignUpActivity.class);
-               startActivityForResult(intent, 101);
+               startActivityForResult(intent, 102);
             }
         });
     }
