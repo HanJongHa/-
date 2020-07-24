@@ -1,4 +1,0 @@
-#Thu Jul 23 22:16:59 KST 2020
-base.0=C\:\\Users\\jongha\\Desktop\\github\\NOW\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
