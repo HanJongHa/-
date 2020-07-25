@@ -1,2 +1,5 @@
 http 접근 허용 안될때
 manifest의 application에서android:usersCleartextTraffic="true" 추가하면됨
+
+volley라이브러리 추가하는법
+build.grandle 에 dependencies에 implementation 'com.android.volley:volley:1.1.1'추가해야됨
