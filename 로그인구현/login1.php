@@ -1,9 +1,6 @@
 <?php
-    error_reporting(E_ALL); 
-    ini_set('display_errors',1); 
-
-    include('dbcon.php'); // db에 연결을 하는코드
-    //$con = mysqlli_connect('db-4ha7m.cdb.ntruss.com','sweetboys','whdgk123!','main_db');
+    $con = mysqli_connect('db-4ha7m.cdb.ntruss.com','sweetboys','whdgk123!','main_db');
+    
 
     $u_id = $_POST["u_id"];
     $u_pw = $_POST["u_pw"];
